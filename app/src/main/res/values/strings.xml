@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Musicplayer</string>
+    <string name="btn_play">PLAY</string>
+    <string name="activity_lable_music_play">Music Play</string>
+    <string name="tv_now_playing">Now Playing:</string>
+    <string name="local_music">Local Music</string>
+    <string name="ori_and_the_blind_forest">Ori and the Blind Forest</string>
+    <string name="hi">Hi</string>
+    <string name="no_title">No Title</string>
+    <string name="paradisus_paradoxum">Paradisus Paradoxum</string>
+    <string name="wild_good_god">Wild Good God</string>
+    <string name="ori_singer">Gareth Coker,Aeralie Brighton</string>
+    <string name="hi_singer">Perfume</string>
+    <string name="no_title_singer">れをる</string>
+    <string name="paradisus_paradoxum_singer"><![CDATA[MYTH & ROID]]></string>
+    <string name="wild_good_god_singer">Tia</string>
+    <string name="log_in">LOG IN</string>
+    <string name="account">Account:</string>
+    <string name="udacity">udacity</string>
+    <string name="password">Password:</string>
+    <string name="wrong_password_info">Password is not correct.</string>
+    <string name="wrong_account">Account is not correct.</string>
+    <string name="null_account">please enter your account information.</string>
+</resources>

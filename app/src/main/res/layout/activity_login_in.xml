@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.android.musicplayer.LoginInActivity">
+
+    <ImageView
+        android:layout_width="@dimen/padding_150dp"
+        android:layout_height="@dimen/padding_150dp"
+        android:src="@drawable/account"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/padding_80dp"
+        android:layout_marginBottom="@dimen/padding_32dp"
+        android:id="@+id/imageView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/padding_32dp"
+        android:layout_marginStart="@dimen/padding_32dp"
+        android:layout_marginRight="@dimen/padding_32dp"
+        android:layout_marginEnd="@dimen/padding_32dp"
+        android:layout_marginTop="@dimen/padding_16dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/padding_4dp"
+            android:layout_marginEnd="@dimen/padding_4dp"
+            android:gravity="center_horizontal">
+            <TextView
+                style="@style/log_in_textview"
+                android:text="@string/account"/>
+
+            <TextView
+                android:text="@string/password"
+                style="@style/log_in_textview"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/padding_0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                style="@style/log_in_edittext"
+                android:hint="@string/udacity"
+                android:id="@+id/et_account"/>
+
+            <EditText
+                android:hint="@string/udacity"
+                android:id="@+id/et_passage"
+                style="@style/log_in_edittext"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/padding_32dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/login"
+        android:layout_gravity="center"
+        android:id="@+id/ib_log_in"
+        android:scaleType="centerCrop"/>
+</LinearLayout>

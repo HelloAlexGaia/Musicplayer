@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/padding_16dp"
+                android:layout_marginRight="@dimen/padding_16dp"
+                android:layout_marginTop="@dimen/padding_8dp"
+                android:layout_marginBottom="@dimen/padding_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/padding_80dp"
+        android:layout_height="@dimen/padding_80dp"
+        tools:src="@drawable/light_of_nibel"
+        android:scaleType="centerCrop"
+        android:id="@+id/iv_item_album"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Ori and the Blind Forest"
+        android:id="@+id/tx_item_title"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="@dimen/padding_16dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/text_size_20sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/iv_item_album"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Gareth Coker,Aeralie Brighton"
+        android:layout_below="@id/tx_item_title"
+        android:layout_alignLeft="@id/tx_item_title"
+        android:id="@+id/tx_title_singer"
+        android:layout_marginTop="@dimen/padding_8dp"
+        android:textSize="@dimen/text_size_14sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/padding_8dp"
+        android:layout_below="@id/iv_item_album"
+        android:background="@color/colorDivider"/>
+</RelativeLayout>
